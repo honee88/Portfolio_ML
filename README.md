@@ -11,10 +11,26 @@
 + Environment : MacOS, Ubuntu Linux, Window
 
 + Summary
-+ 
+<br>
   (1) Data Collection
     - 수집대상 : 유기, 유실 강아지 및 고양이 공고/관리현황 데이터 (유기번호/발견장소/품종/색상/성별/특징/나이 등 20개 변수)
     - 수집기간 : 2017.01.01 ~ 2020.10.12
     - 수집건수 : 324,702 건
     - 수집방법 : 오픈 API 활용
     - 수집출처 : 농림축산검역본부 동물보호관리시스템 유기동물 조회 서비스
+<br>
+  (2) Data Preprocessing
+    - 이상치/결측치 처리
+    - 데이터 변수 성격에 따른 타입 변환
+    - 데이터 범주화 (Categorizing/Factoring)
+    - 비정형 데이터 텍스트 전처리<br>
+      정규표현식 / 불용어 제거 / 워드 토큰화(한글 형태소 분석기 Mecab 적용) / 단어집합 해시맵 Vocab 생성
+<br>
+  (3) Model & Algorithms
+    - Word2Vec (Skip-gram) : 워드 임베딩
+    - Kemans Clustering : 토픽 워드 도출
+    - WordCloud : 텍스트 분석 시각화
+    - Light GBM : 분류 분석 모델 (교차 검증으로 분류 모델 점수 비교 및 모델 최종 선정)
+    - GridSearchCV : 하이퍼파라미터 조정
+    - Plot_importance : 중요 피처 시각화
+    - Threshold 조정
