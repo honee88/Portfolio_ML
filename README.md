@@ -11,6 +11,7 @@
 + Environment : MacOS, Ubuntu Linux, Window
 
 + Summary
++ 
   (1) Data Collection
     - 수집대상 : 유기, 유실 강아지 및 고양이 공고/관리현황 데이터 (유기번호/발견장소/품종/색상/성별/특징/나이 등 20개 변수)
     - 수집기간 : 2017.01.01 ~ 2020.10.12
