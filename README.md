@@ -36,22 +36,29 @@
     - Feature importance : 중요 피처 시각화<br>
     - Threshold 조정<br>
 
-+ Conclusion<br>
++ Conclusion
+
  (1). 분류모델 Light GBM / Decision Tree Classifier / Logistic Regression / Random Forest Classifier / Gradient boosting / XGboost / GaussianNB / K neighbors Classifier / Catboost 분석 결과 Light GBM의 f1_score, roc-score 가 가장 높게 나옴<br>
+ 
  (2). Light GMB 모델 결정 후 k-fold 교차검증 및 GridSearchCV로 하이퍼 파라미터 조정을 통해 score를 높이는 과정 진행<br>
+ 
  (3). Feature importance를 통해 분석 결과에 큰 영향을 준 주요 변수 도출 (공고일자/몸무게/유기된장소/성별/나이/특이사항)<br>
+ 
  (4). 분석 결과 및 제언<br>
   - 7~10월 반려동물 유기 증가 기간의 집중 캠페인 시행<br>
   - 보호소 신규 개설 보다 직접적인 영향을 미치는 제도 마련<br>
   - 질병 및 사고로 입양 가능성이 낮은 유기동물의 질병 치료 우선<br>
  
-+ Further Research<br>
++ Further Research
+
  (1). 데이터의 한계<br>
   - 공고 기간이나 유기동물 입양 여부까지만 확인 가능<br>
   - 입양된 시점에 대한 데이터 부재<br>
   - 입양된 시점의 데이터가 제공된다면 입양 소요 시간 예측 모델을 통해 더욱 효율적인 유기동물 관리와 입양 활성화 방안 제시가 가능할 것으로 보임<br>
+
  (2). 분석 기법의 한계<br>
   - 입양에 중요한 영향을 미칠것이라고 예상되는 이미지를 사용한 딥러닝 모델링 미적용<br>
   - 딥러닝을 통한 정확한 분류 예측 모델 필요<br>
+
  (3). 해당 모델링의 타 분야 활용 방안<br>
   - 물류 시스템 분류 예측 모델 적용 가능<br>
