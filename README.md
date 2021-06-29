@@ -33,10 +33,21 @@
     - WordCloud : 텍스트 분석 시각화<br>
     - Light GBM : 분류 분석 모델 (교차 검증으로 분류 모델 점수 비교 및 모델 최종 선정)<br>
     - GridSearchCV : 하이퍼파라미터 조정<br>
-    - Plot_importance : 중요 피처 시각화<br>
+    - Feature importance : 중요 피처 시각화<br>
     - Threshold 조정<br>
 
 + Conclusion
-
+- 분류모델 Light GBM / Decision Tree Classifier / Logistic Regression / Random Forest Classifier / Gradient boosting / XGboost / GaussianNB / K neighbors Classifier / Catboost 분석 결과 Light GBM의 f1_score, roc-score 가 가장 높게 나옴
+- Light GMB 모델 결정 후 k-fold 교차검증 및 GridSearchCV로 하이퍼 파라미터 조정을 통해 score를 높이는 과정 진행
+- 
 
 + Further Research
+- 데이터의 한계
+- - 공고 기간이나 유기동물 입양 여부까지만 확인 가능
+- - 입양된 시점에 대한 데이터 부재
+- - 입양된 시점의 데이터가 제공된다면 입양 소요 시간 예측 모델을 통해 더욱 효율적인 유기동물 관리와 입양 활성화 방안 제시가 가능할 것으로 보임
+- 분석 기법의 한계
+- - 입양에 중요한 영향을 미칠것이라고 예상되는 이미지를 사용한 딥러닝 모델링 미적용
+- - 딥러닝을 통한 정확한 분류 예측 모델 필요
+- 해당 모델링의 타 분야 활용 방안
+- - 물류 시스템 분류 예측 모델 적용 가능
