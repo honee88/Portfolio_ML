@@ -1,7 +1,30 @@
 # ML_Portfolio
 ### 머신러닝 프로젝트 포트폴리오 정리
 ***
-## Team Project 2 - 유기동물 입양 가능성 예측 및 입양 활성화를 위한 DATA 활용 방안
+### Team Project 1
+## 롯데의 고객은 누구일까? 페르소나 찾기 _제5회 L.POINT Big Data Competition 데이터 
+
++ Tools : SQL (Oracle) / Python (Jupyter notebook)
+ 
++ Environments : MacOS, Ubuntu Linux, Window
+
++ Background
+
+
++ Summary
+
+  (1). Data Collection<br>
+    - 수집대상 : 롯데그룹 온라인 계열사의 온라인행동 데이터 및 상품분류 데이터<br>
+    - 수집기간 : 2018.04 ~ 2019.09 총 6개월<br>
+    - 수집건수 : <br>
+    - 수집출처 : 제5회 L.POINT Big Data Competition "Be the L.BA" 제공<br>
+   
+   (2). Data Preprocessing<br>
+     - 이상치/결측치 처리
+
+
+### Team Project 2
+## 유기동물 입양 가능성 예측 및 입양 활성화를 위한 DATA 활용 방안
 
 + Tools : Python (Jupyter notebook)
  
