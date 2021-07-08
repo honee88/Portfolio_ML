@@ -111,4 +111,4 @@
   (3). 해당 모델링의 타 분야 활용 방안<br>
     - 물류 시스템 분류 예측 모델 적용 가능<br>
 
-바로가기 : [유기동물 입양 가능성 예측 및 입양 활성화를 위한 DATA 활용 방안](https://github.com/honee88/Portfolio_ML/tree/main/Team_Project/Adoption)
+*바로가기 : [유기동물 입양 가능성 예측 및 입양 활성화를 위한 DATA 활용 방안](https://github.com/honee88/Portfolio_ML/tree/main/Team_Project/Adoption)*
