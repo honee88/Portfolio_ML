@@ -2,7 +2,7 @@
 ### 머신러닝 프로젝트 포트폴리오 정리
 ***
 ### Team Project 1
-## 롯데의 고객은 누구일까? 페르소나 찾기 _제5회 L.POINT Big Data Competition 데이터 
+## 롯데의 고객은 누구일까? 페르소나 찾기 _제5회 L.POINT Big Data Competition 데이터_
 
 + Tools : SQL (Oracle) / Python (Jupyter notebook)
  
