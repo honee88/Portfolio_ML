@@ -45,7 +45,7 @@
   (3). 외부 요인 파악 미흡<br>
     - 고객 온라인 행동에 영향을 미친 경제적, 사회적 등 다양한 외부 요인 데이터 탐색 과정 및 적용 필요<br>
 
-바로가기 : 
+*바로가기 : [롯데의 고객은 누구일까? 페르소나 찾기_제5회 L.POINT Big Data Competition 데이터](https://github.com/honee88/Portfolio_ML/tree/main/Team_Project/Persona)*
 
 ***
 ### Team Project 2
